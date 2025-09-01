@@ -2,7 +2,7 @@
 RT-APP – Aplikasi Sistem Informasi RT Berbasis Laravel + React
 🏘️ RT-APP – Aplikasi Sistem Informasi RT Berbasis Laravel + React
 
-RT-APP adalah sistem informasi digital untuk pengelolaan administrasi RT (Rukun Tetangga), dibangun menggunakan Laravel (sebagai backend API) dan React + TypeScript (sebagai frontend), dengan dukungan Tailwind CSS dan komponen UI dari shadcn/ui serta ui.aceternity.
+RT-APP adalah sistem informasi digital untuk pengelolaan administrasi RT (Rukun Tetangga), dibangun menggunakan Laravel (sebagai backend API) dan React + TypeScript (sebagai frontend), dengan dukungan Tailwind CSS dan komponen UI dari shadcn ui serta aceternity ui.
 
 🎯 Fitur Utama
 
