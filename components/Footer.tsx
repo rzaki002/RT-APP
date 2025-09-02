@@ -2,7 +2,16 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-300 pt-12 pb-8 border-t border-gray-200 dark:border-gray-700">
+    <footer className="bg-white dark:bg-black text-gray-600 dark:text-gray-300 pt-12 pb-8 border-t border-gray-200 dark:border-gray-700">
+        <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
+        <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
+      </div>
+      <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
+        <div className="absolute h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
+        <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Grid atas */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
